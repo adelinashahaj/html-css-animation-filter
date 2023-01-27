@@ -110,6 +110,100 @@
     }
 }
 
+.ex-12-button:hover .ex-12-top-white{
+    animation: bottone1 2s linear;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: bottone2 2s linear;
+}
+
+@keyframes bottone1{
+    0%{
+        left: 10%;
+    }
+    50%{
+        left: calc(100% - 60px);
+    }
+    100%{
+        left: 10%;
+    }
+}
+
+@keyframes bottone2{
+    0%{
+        right: 20%;
+    }
+    50%{
+        right: calc(100% - 60px);
+    }
+    100%{
+        right: 20%;
+    }
+}
+.ex-13-button:hover .ex-13-top-white{
+    animation: bottone3 4s linear;
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: bottone4 4s linear;
+}
+
+@keyframes bottone3{
+    0%{
+        left: 10%;
+        top: -10px;
+    }
+    30%{
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    45%{
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75%{
+        left: 0;
+        top: 100%;
+    }
+    90%{
+        left: -20px;
+        top: -10px;
+    }
+    100%{
+        left: 10%;
+        top: -10px;
+    }  
+}
+
+@keyframes bottone4{
+    0%{
+        right: 20%;
+        bottom: -10px;
+    }
+    30%{
+        right: calc(100% - 40px);
+        bottom: -10px;
+    }
+    45%{
+        right: calc(100% - 40px);
+        bottom: 100%;
+    }
+    75%{
+        right: 0;
+        bottom: 100%;
+    }
+    90%{
+        right: -20px;
+        bottom: -10px;
+    }
+    100%{
+        right: 20%;
+        bottom: -10px;
+    }    
+}
+
+
 
 
 
