@@ -92,6 +92,24 @@
     0% {transform: rotate(0turn);}
     100%{transform: rotate(1turn);}
 }
+.ex-11-icon {
+    font-size: 60px;
+}
+.ex-11-icon:hover{
+    animation: cerchio1 3s linear;
+}
+@keyframes cerchio1{
+    0% {
+        transform: rotate(0turn);
+    }
+    72% {
+        transform: rotate(0.70turn);
+    }
+    100% {
+        transform: rotate(0turn);
+    }
+}
+
 
 
 
