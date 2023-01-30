@@ -2,6 +2,10 @@
     background-color: red;
 
 }
+.ex-1-square{
+    transition: all 1s;
+
+}
 .ex-2-square {
     width: 100px;
     height: 100px;
